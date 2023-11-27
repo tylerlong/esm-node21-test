@@ -1,1 +1,2 @@
-console.log(`Hello ${process.env.NAME}!`);
+import { PeerConnection } from 'node-datachannel';
+console.log(PeerConnection);
